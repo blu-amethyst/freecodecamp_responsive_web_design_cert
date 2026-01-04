@@ -1,0 +1,257 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seafood Buddha Delight</title>
+  </head>
+  <body>
+      <nav id="navbar">
+        <header>
+          <h1>Seafood Buddha <span id="h1-span"> Delight Dish<span></h1>
+        </header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#The_Story">The Story</a></li> 
+          <li><a class="nav-link" href="#Ingredients">Ingredients</a></li>
+          <li><a class="nav-link" href="#Instruction">Instruction</a></li>
+          <li><a class="nav-link" href="#Pair-With">Pair-With</a></li> 
+        </ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>
+          <h2>Introduction</h2> 
+        </header>
+      <img src="https://www.newmalaysiankitchen.com/wp-content/uploads/2017/05/Lo-Hon-Zai-Buddhas-Delight-4-1.jpg">
+        <p>
+          <code>Luo Hon Zhai</code> is a traditional vegetarian dish well known in Chinese and Buddhist cuisine. It is commonly known in English as <code>Buddha's Delight</code>.</p>
+          <p>Throughout decades, foodies have been creating various variance by adding and modifying part of the recipe. And for this post, I am sharing one of my favorite variance.</p>
+
+        <p>Please be aware, this is one of the many dish to share among people. </p>
+      </section>
+      <section class="main-section" id="The_Story"> 
+        <header>
+          <h2>The Story</h2>
+        </header>
+        <p>The name comes from Chinese Buddhism. Luóhàn is a Chinese transliteration of the Sanskrit word arhat, meaning an enlightened individual or saint. Zhai means "vegetarian food" or "vegetarian diet." Thus, it translates to "Vegetarian Dish of the Arhats (Saints)</p>
+        <p>It is a stir-fried or braised medley of various vegetables, fungi, and vegetarian protein sources a.k.a <code>red beancurd paste (Nam Yu)</code>. It is famously made with many ingredients—traditionally at least 10, though more elaborate versions can feature 18 (representing the 18 Arhats) or more.</p>
+    <p>It is traditionally enjoyed by Buddhist monks and is a popular dish served in Chinese households on the first day of the <code>Chinese New Year</code> as a form of self-purification, following the belief that one should maintain a vegetarian diet at the start of the year.
+</p>
+      </section>
+      <section class="main-section" id="Ingredients">
+        <header>
+          <h2>Ingredients</h2>
+        </header>
+        <p>There are quite a number of uncommon ingredients found in this dish. So, be prepare.</p>
+        <p>If your regular go-to supermarket does not have the ingredients below, you might need to go to Asian- market, specifically Chinese market to purchase.</p>
+<h3>Sauce</h3>
+<ul>
+  <li>Red Beancurd Paste (Nam Yu)</li><li>Oyster Sauce</li><li>Water</li><li>Sugar</li><li>Teaspoon of Soy Sauce</li>
+</ul>
+<h3>Main Ingredients</h3>
+<ul>
+  <li>Dried Oyster</li><li>Dried Shrimp</li><li>Dried Mushroom</li><li>Seafood Assortment eg Squid, Prawn..</li><li>Garlic</li><li>Long Cabbage/ Napa Cabbage</li><li>Fa Choy (Black Moss)</li><li>WoodEar Fungus</li><li>Carrot</li><li>Glass Noodle</li>
+</ul>
+      </section>
+      <section class="main-section" id="Instruction">
+        <header>
+          <h2>Instruction</h2>
+        </header>
+        <p>This is a tedious dish! You need at least <code>5 hours to prepare in advanced before cooking.</code></p>
+        <h3>First- stage Preparation</h3>
+        <ol>
+          <li>Wash Dried Mushroom then Soak in the water for 5 hours</li>
+          <li>Wash Dried Oyster & Shrimp then Soak in the water for 5 hours</li>
+          <li>Wash WoodEar Fungus then Soak in the water for 5 hours</li>
+          <li>Wash Fa Choy then Soak in the water for 3 hours</li>
+          <li>Wash Fried Beancurd Ball, at least most of the oil was discarded. Put it aside to dry.</li>
+          <li>Wash off the preservative of Bamboo Shoot (canned/ packaged), put aside and dry</li>
+        </ol>
+        <p>After 3 hours, it's time to cut.</p>
+        <h3>Second-Stage Preparation</h3>
+        <ol>
+          <li>Drain off the water of WoodEar Fungus, FaChoy. DO NOT drain mushroom, dried oyster and shrimp. Collect the water in a bowl, we will reuse the water in the dish. </li>
+          <li>Boil Glass noodle for around 5 minutes, until al dante. And drain the water away.</li>
+          <li>Slice the WoodEar Fungus, Mushroom, Fried Beancurd Balls, bamboo shoot into a thinner slice</li>
+          <li>Peel the carrot and cut into small chunk</li>
+          <li>Process the seafood according to your preference</li>
+          <li>Wash the cabbage, place horizontally in front and cut evenly approximate 5cm wide. </li>
+          <li>Mince the garlic</li>
+        </ol>
+        <hr>
+          <p>And now let's cook! I am going to separate into 2 parters. One before the sauce, then after sauce.</p>
+          <h3>Cook before sauce</h3>
+          <ol>
+            <li>Add oil enough to cover the pan/ wok</li>
+            <li>Put garlic, dried oyster and shrimp, mushroom into the pan. Stir Fry for around 2-3 minutes, until color change. (* You don't need to ensure its entirety cooked, as we are going to cook in part 2.)</li>
+            <li>Pour in the water that used to soak oyster and mushroom to deglaze the pan. Wait for approx. 1-2min.</li>
+            <li>Pour the content into a big bowl and set it aside.</li>
+          </ol>
+          <h3>Cook with Sauce</h3>
+          <ol>
+            <li>Put the Red Beancurd paste into the pan, mashed it with the oil. (It normally comes in cube)</li>
+            <li>Put 1 tablespoon of oyster sauce and 1.5 tablespoon of sugar in and stir.</li>
+            <li>Pour in assortment seafood and stir fry for a little while.</li>
+            <li>Put the cooked content in along with the water and stir fry for a bit.</li>
+            <li>Put the rest of the ingredients in and stir fry for 2 min </li>
+            <li>Add water in, enough to cover the suface. Put approximate stock cube in. (If you are using liquid stock, the latter step can be omitted).</li>
+            <li>Put on medium heat until it boil, maintain for 10 minutes. (DO NOT BURNT THE POT)</li>
+            <li>Switch to low heat to continue to cook for 1-2 hours.</li>
+            <li>Taste the sauce. If too salty, put sugar in to balance out.</li>
+          </ol> 
+
+      </section>
+      <section class="main-section" id="Pair-With">
+        <header>
+          <h2>Pair-With</h2>
+        </header>
+        <p>In Chinese cuisine, it's pretty normal to have few dishes to share among friends and families. You can pair this dish with the below:</p>
+        <ul>
+          <li>Plain Rice (MUST)</li>
+          <li>Mock Fried Geese - Vegetarian (Highly Recommend, but not every brand is delicious. Can be found in some frozen aisle)<img src="https://theplantbasedwok.com/wp-content/uploads/2022/11/vegetarian-roast-goose-6153-scaled.jpg"></li>
+          <li>Carrot and Corn Soup (Balance out the heavy taste from Buddha Delight)<img src="https://www.philips.com.hk/c-dam/b2c/kitchen/hong-kong/porkbonebrothwithchayotecarrotandcorn.jpg"></li>
+          <li>Cold Jasmine Chinese Tea</li>
+
+        </ul>
+      </section>
+      <p>There you go! Authentic Chinese Dish. You either like it or dislike it.</p>
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+@media (min-width: 576px) {
+  nav#navbar {
+  width: 250px;
+  background-color: pink;
+  position: fixed;
+  top :0;
+  left: 0;
+  height: 100%;
+  
+}
+#main-doc {
+  margin-left: 280px;
+  padding-left: 20px;
+  padding: 20px;
+  flex-grow: 1;
+}
+}
+
+html {
+  font-family: Roboto;
+}
+
+body {
+  height: 100vh;
+
+  margin: 0;
+}
+
+nav > header> h1 {
+  font-size: 25px;
+  padding-left: 40px;
+  color: rgb(153, 117, 117);
+  font-family: Georgia;
+}
+span#h1-span {
+  display: block;
+}
+
+nav#navbar {
+  width: 250px;
+  background-color: pink;
+  position: fixed;
+  top :0;
+  left: 0;
+  height: 100%;
+  
+}
+
+nav > ul {
+  list-style: none;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+nav > ul > li {
+  border-bottom: 5px solid white;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav > ul > li > a {
+  color: white;
+  display: block;
+}
+
+#main-doc {
+  margin-left: 280px;
+  padding-left: 20px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+#main-doc section {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+#main-doc > section > p {
+  text-align: justify;
+}
+
+section#Introduction > img {
+  width: 400px;
+  height: 300px;
+}
+
+section#Ingredients > ul {
+  width: 550px;
+  height: 100px;
+  border: 2px dashed black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  list-style-type: square;
+}
+
+section#Pair-With > ul {
+  list-style-type: square;
+  padding: 0;
+  margin: 0;
+}
+
+section#Pair-With > ul > li {
+  border-bottom: 2px solid #ccc;
+  padding: 10px 0;
+  margin-bottom: 5px;
+
+}
+
+section#Pair-With > ul > li:last-child {
+  border-bottom: none;
+}
+
+section#Pair-With > ul > li > img {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-left: 50px;
+}
+
+
+
+
+
+** end of styles.css **
+
