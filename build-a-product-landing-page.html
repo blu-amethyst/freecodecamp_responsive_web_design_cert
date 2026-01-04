@@ -1,0 +1,244 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <main>
+      
+        <header id="header">
+          <div id="logo-container">
+          <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Unicorn_3_%28PSF%29.png/1200px-Unicorn_3_%28PSF%29.png" alt="unicorn">
+          <h1>Own A Unicorn</h1>
+          </div>
+        
+          <nav id="nav-bar">
+            <ul>
+              <li><a class="nav-link" href="#product-sec">Description</a></li>
+            
+              <li><a class="nav-link"  href="#price">Price</a></li>
+              <li><a class="nav-link" href="#form">Form</a></li>
+              <li><a class="nav-link" href="#subscribe">Subscribe</a></li>
+            </ul>
+          </nav>
+        </header>
+  
+<div class="page-wrapper">        
+      <section id="product-sec">
+        <!--section use grid for video and product description-->
+        <video id="video"width="300px" height="200px" control>
+          <source src="C:\Users\Blu\Downloads\Bedtime Stories_ Olga and Bituin Spread Positivity . Age_3-11 with subtitle.mp4" type="video/mp4"> 
+        </video>
+        <div class="description">
+<h3>You're the Unique one!
+</h3>
+<p>Owning a unicorn makes you the unique one. Imagine telling your friends, you are the owner of a mythical creature, makes you more popular than ever. </p>
+<h3>
+  We do the hard work!
+</h3>
+<p>You don't need to walk, feed or even see your unicorn. Zoom call in and your unicorn will be there for you.</p>
+        </div>
+
+      </section>
+<div id="divider"></div>
+      <section id="price">
+
+        <article class="price-col">
+<h3 class="h3-price">Basic B Unicorn</h3>
+<p>Your Unicorn will be as basic as you.</p>
+<price>$5</price>
+        </article>
+        <article class="price-col">
+<h3 class="h3-price">Looking Cool Unicorm</h3>
+<p>Unlike the basic, you are looking so much cooler</p>
+<price>$10</price>
+        </article>
+        <article class="price-col">
+<h3 class="h3-price">Hail the Unicorn King</h3>
+<p>You are the supreme, You are the king! Worship you!</p>
+<price>$100</price>
+        </article>
+
+      </section>
+<div id="divider"></div>
+
+      <section id="form-submit">
+<form id="form" action="https://www.freecodecamp.org/email-submit">
+  <h2>Subscribe for more info!</h2>
+  <label for="email">Your email: <input id= "email" name="email" type="email" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="abc@gmail.com.."></label>
+  <input type="submit" value="Subscribe" name="submit" id="submit" required>
+</form>
+      </section>
+
+      <section id="subscribe">
+
+      </section>
+      <footer>
+        <address>123, the Magical Forest,
+          Str. 2 Mythical Lane, 
+          123456 The Neverland.
+        </address>
+        <id class="link-container">
+        <a href="noprivacy">Privacy</a>
+        <a href="noterms">Terms</a>
+        <a href="norefund">No Refund Policy</a>
+        </id>
+      </footer>
+</div>
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+@media (max-width: 670px) {
+  section#price {
+  display: flex;
+  flex-direction: columns;
+}
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0; 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  font-family: Georgia, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #b7ffde 0%,#ffffb7 30%,#ffdab7 60%,#ffb7e0 100%);
+}
+
+#header-img {
+  width: 50px;
+  height: 30px;
+  margin: 10px; margin-top:20px;
+
+}
+
+div#logo-container {
+  width: 60vw;
+  display: flex;
+}
+
+#logo-container > h1 {
+  color: rgb(235, 121, 121)
+  ;
+}
+
+#header { position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+    justify-content: space-between; 
+  align-items: center;   background: linear-gradient(180deg,
+  #e0b7ff,
+  #b7e0ff,      
+  #b7ffde);
+}
+nav#nav-bar > ul {
+  padding: 0;
+  display: flex; flex-direction: row;
+  list-style-type: none;
+    
+}
+
+nav#nav-bar >ul > li {
+  padding-right: 10px;
+  color: rgb(219, 171, 171);  
+}
+
+nav#nav-bar > ul > li > a:hover {
+  background-color: black;
+  color: white;
+   
+}
+
+.page-wrapper {
+  margin-top: 30%;
+}
+
+section {
+  margin: 5%;
+}
+video {
+  border: 2px solid black;
+
+}
+
+section#product-sec { 
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+iframe {
+  grid-column: 1/2;
+}
+
+.description div {
+  grid-column: 2/3;
+}
+
+div#divider {
+  border: 1px solid black;
+  width: 50%;
+  margin-left: 25%;
+}
+
+section#price {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+}
+
+.price-col {
+  border: 6px dotted gold;
+  background-color: beige;
+  padding: 5px;
+  width: 100%;
+  display: block;
+}
+
+footer {
+  border: 1px solid transparent;
+  background-color: grey;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+address {
+  display: block; 
+  width: 30%;
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.link-container {
+  display: flex;
+  padding: 20px;  
+}
+
+.link-container > a {
+  padding-right: 10px;
+}
+
+** end of styles.css **
+
